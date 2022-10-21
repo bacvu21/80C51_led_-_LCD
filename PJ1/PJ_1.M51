@@ -1,0 +1,125 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        10/13/2022  15:02:31  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE main.obj, delay.obj TO PJ_1
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  delay.obj (DELAY)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?COPY)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?LLDIIDATA)
+
+
+LINK MAP OF MODULE:  PJ_1 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     000BH     UNIT         _DATA_GROUP_
+            DATA    0013H     0004H     UNIT         ?DT?_DELAY_US?DELAY
+            IDATA   0017H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0116H     UNIT         ?C?LIB_CODE
+            CODE    0119H     0032H     UNIT         ?PR?MAIN?MAIN
+            CODE    014BH     0020H     UNIT         ?PR?_DELAY_MS?DELAY
+            CODE    016BH     0016H     UNIT         ?PR?_DELAY_US?DELAY
+            CODE    0181H     000CH     UNIT         ?C_C51STARTUP
+            CODE    018DH     000AH     UNIT         ?CO?MAIN
+
+
+
+OVERLAY MAP OF MODULE:   PJ_1 (MAIN)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN                  0008H    000BH
+  +--> ?CO?MAIN
+  +--> ?PR?_DELAY_MS?DELAY
+
+
+
+SYMBOL TABLE OF MODULE:  PJ_1 (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/13/2022  15:02:31  PAGE 2
+
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0119H         PUBLIC        main
+  C:018DH         SYMBOL        _?ix1000
+  D:0080H         PUBLIC        led7
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        ar
+  D:0012H         SYMBOL        i
+  -------         ENDDO         
+  C:0119H         LINE#         9
+  C:0119H         LINE#         10
+  C:012CH         LINE#         12
+  C:012CH         LINE#         13
+  C:012FH         LINE#         14
+  C:0137H         LINE#         15
+  C:013EH         LINE#         17
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        DELAY
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:014BH         PUBLIC        _delay_ms
+  C:016BH         PUBLIC        _delay_us
+  -------         PROC          _DELAY_MS
+  D:0006H         SYMBOL        t
+  -------         DO            
+  D:0004H         SYMBOL        x
+  D:0002H         SYMBOL        y
+  -------         ENDDO         
+  C:014BH         LINE#         4
+  C:014BH         LINE#         6
+  C:0155H         LINE#         7
+  C:016AH         LINE#         8
+  -------         ENDPROC       _DELAY_MS
+  -------         PROC          _DELAY_US
+  D:0013H         SYMBOL        t
+  C:016BH         LINE#         9
+  C:0173H         LINE#         11
+  C:0180H         LINE#         13
+  -------         ENDPROC       _DELAY_US
+  -------         ENDMOD        DELAY
+
+  -------         MODULE        ?C?COPY
+  C:00D3H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+  -------         MODULE        ?C?LLDIIDATA
+  C:0102H         PUBLIC        ?C?LLDIIDATA
+  C:00F9H         PUBLIC        ?C?LLDIIDATA1
+  C:00FBH         PUBLIC        ?C?LLDIIDATA8
+  -------         ENDMOD        ?C?LLDIIDATA
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+
+Program Size: data=24.0 xdata=0 code=407
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/13/2022  15:02:31  PAGE 3
+
+
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,77 @@
+C51 COMPILER V9.01   MAIN                                                                  10/17/2022 15:55:17 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <C:\110195_VuHuuBac\lib\main.h>
+   2          
+   3          void run_clock();
+   4          void set_up();
+   5          
+   6          int h,m,s;
+   7          void main (){
+   8   1              
+   9   1                      h =15;m =25;s=55;
+  10   1                      LCD_init();
+  11   1      
+  12   1      while(1)
+  13   1              {
+  14   2                      set_up();
+  15   2                      run_clock();    
+  16   2              }       
+  17   1      }
+  18          // ham gui so cho lcd 
+  19          void set_up(){
+  20   1                      
+  21   1                      unsigned char a[16];
+  22   1      
+  23   1                      LCDgoto(1,1);
+  24   1                      sprintf(a,"\tDONG HO SO");
+  25   1                      LCDwrites(a);
+  26   1                      sprintf(a,"%d : %d : %d",h,m,s);
+  27   1                      LCDgoto(2,2);
+  28   1                      LCDwrites(a);
+  29   1              
+  30   1      
+  31   1      }
+  32          void run_clock()
+  33          {
+  34   1              delay_ms(1000);
+  35   1              s++;
+  36   1              if (s==60)
+  37   1                      {
+  38   2                       s= 0;
+  39   2                       m++;
+  40   2                              if (m == 60){
+  41   3                              
+  42   3                                      m =0;
+  43   3                                      h++;
+  44   3                                      if (h ==24) h=0;
+  45   3                              }
+  46   2                      
+  47   2                      
+  48   2                      }
+  49   1              
+  50   1              }
+  51                          
+  52          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+C51 COMPILER V9.01   MAIN                                                                  10/17/2022 15:55:17 PAGE 2   
+
+   CODE SIZE        =    177    ----
+   CONSTANT SIZE    =     25    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      6      16
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

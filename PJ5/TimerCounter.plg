@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\taikh\Desktop\110195_VuHuuBac\PJ5\TimerCounter.uvproj
+Project File Date:  10/21/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+C:\Users\taikh\Desktop\110195_VuHuuBac\lib\main.h(13): warning C318: can't open file 'C:\110195_VuHuuBac\lib\port.h'
+C:\Users\taikh\Desktop\110195_VuHuuBac\lib\main.h(14): warning C318: can't open file 'C:\110195_VuHuuBac\PJ2\hienthi.h'
+C:\Users\taikh\Desktop\110195_VuHuuBac\lib\main.h(15): warning C318: can't open file 'C:\110195_VuHuuBac\lib\delay.h'
+C:\Users\taikh\Desktop\110195_VuHuuBac\lib\main.h(16): warning C318: can't open file 'C:\110195_VuHuuBac\lib\caculate.h'
+MAIN.C(15): warning C206: 'LCD_init': missing function-prototype
+MAIN.C(61): warning C206: 'LCDgoto': missing function-prototype
+MAIN.C(61): error C267: 'LCDgoto': requires ANSI-style prototype
+compiling caculate_row.c...
+..\PJ4\caculate_row.c(5): warning C318: can't open file 'C:\110195_VuHuuBac\lib\main.h'
+..\PJ4\CACULATE_ROW.C(24): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(25): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(26): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(27): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(28): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(29): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(37): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(38): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(39): error C202: 'LCD1602_data': undefined identifier
+..\PJ4\CACULATE_ROW.C(42): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(44): error C202: 'LCD1602_E': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+C:\Users\taikh\Desktop\110195_VuHuuBac\lib\port.h(8): warning C318: can't open file 'C:\110195_VuHuuBac\lib\main.h'
+compiling caculate_row.c...
+..\PJ4\caculate_row.c(5): warning C318: can't open file 'C:\110195_VuHuuBac\lib\main.h'
+..\PJ4\CACULATE_ROW.C(24): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(25): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(26): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(27): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(28): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(29): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(37): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(38): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(39): error C202: 'LCD1602_data': undefined identifier
+..\PJ4\CACULATE_ROW.C(42): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(44): error C202: 'LCD1602_E': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling caculate_row.c...
+..\PJ4\caculate_row.c(5): warning C318: can't open file 'C:\110195_VuHuuBac\lib\main.h'
+..\PJ4\CACULATE_ROW.C(24): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(25): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(26): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(27): error C202: 'LCD1602_BF': undefined identifier
+..\PJ4\CACULATE_ROW.C(28): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(29): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(37): error C202: 'LCD1602_RS': undefined identifier
+..\PJ4\CACULATE_ROW.C(38): error C202: 'LCD1602_RW': undefined identifier
+..\PJ4\CACULATE_ROW.C(39): error C202: 'LCD1602_data': undefined identifier
+..\PJ4\CACULATE_ROW.C(42): error C202: 'LCD1602_E': undefined identifier
+..\PJ4\CACULATE_ROW.C(44): error C202: 'LCD1602_E': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+..\PJ4\CACULATE_ROW.C(114): warning C209: '_delay_ms': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  .\caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  .\caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0D82H
+Program Size: data=65.1 xdata=0 code=1617
+creating hex file from "TimerCounter"...
+"TimerCounter" - 0 Error(s), 6 Warning(s).

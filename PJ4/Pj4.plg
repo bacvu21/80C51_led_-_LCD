@@ -1,0 +1,1021 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\110195_VuHuuBac\PJ4\Pj4.uvproj
+Project File Date:  10/16/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): warning C206: 'LCD_init': missing function-prototype
+MAIN.C(11): warning C206: 'LCD_String': missing function-prototype
+MAIN.C(11): error C267: 'LCD_String': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): warning C206: 'LCD_init': missing function-prototype
+MAIN.C(11): warning C206: 'LCD_String': missing function-prototype
+MAIN.C(11): error C267: 'LCD_String': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(12): warning C206: 'LCDgoto': missing function-prototype
+MAIN.C(12): error C267: 'LCDgoto': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 000DH
+Program Size: data=9.0 xdata=0 code=42
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 000DH
+Program Size: data=9.0 xdata=0 code=41
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 000DH
+Program Size: data=9.0 xdata=0 code=41
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0004H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCD_STRING
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 000DH
+Program Size: data=9.0 xdata=0 code=41
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0010H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0015H
+Program Size: data=9.0 xdata=0 code=25
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0010H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0015H
+Program Size: data=9.0 xdata=0 code=25
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0010H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0015H
+Program Size: data=9.0 xdata=0 code=25
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LCD_INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0010H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _LCDWRITE
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0015H
+Program Size: data=9.0 xdata=0 code=25
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(13): warning C276: constant in condition expression
+CACULATE_ROW.C(13): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(13): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(46): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(62): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(13): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(13): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(46): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(62): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(21): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(21): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(45): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(61): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(21): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(21): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(45): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(61): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(21): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(21): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(45): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(61): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(21): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(21): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(45): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(61): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(21): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(21): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(45): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(61): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(22): warning C206: 'LCDcommand': missing function-prototype
+CACULATE_ROW.C(22): error C267: 'LCDcommand': requires ANSI-style prototype
+CACULATE_ROW.C(38): error C231: 'LCDcommand': redefinition
+CACULATE_ROW.C(54): error C231: 'LCDcommand': redefinition
+Target not created
+Build target 'Target 1'
+compiling caculate_row.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDGOTO?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=17.0 xdata=0 code=247
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C206: 'LCD_string': missing function-prototype
+MAIN.C(7): error C267: 'LCD_string': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C206: 'LCD_string': missing function-prototype
+MAIN.C(7): error C267: 'LCD_string': requires ANSI-style prototype
+compiling caculate_row.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C206: 'LCD_string': missing function-prototype
+MAIN.C(7): error C267: 'LCD_string': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C206: 'LCD_string': missing function-prototype
+MAIN.C(7): error C267: 'LCD_string': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C206: 'LCD_string': missing function-prototype
+MAIN.C(7): error C267: 'LCD_string': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDGOTO?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=17.0 xdata=0 code=263
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): warning C206: 'LCD_clear': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDGOTO?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=17.0 xdata=0 code=266
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDGOTO?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=17.0 xdata=0 code=263
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): error C141: syntax error near 'char'
+MAIN.C(9): error C141: syntax error near ']'
+compiling caculate_row.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(8): error C202: 'n': undefined identifier
+MAIN.C(9): error C202: 'n': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=54.1 xdata=0 code=1356
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'n': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=56.1 xdata=0 code=1345
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+MAIN.C(9): warning C280: 'n': unreferenced local variable
+main.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=56.1 xdata=0 code=1345
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'n': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=56.1 xdata=0 code=1356
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'n': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+Program Size: data=56.1 xdata=0 code=1348
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(19): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(19): warning C209: '_sprintf': too few actual parameters
+MAIN.C(19): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(20): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(20): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(19): warning C209: '_sprintf': too few actual parameters
+MAIN.C(21): error C187: not an lvalue
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(15): error C141: syntax error near 'char'
+MAIN.C(15): error C202: 'i': undefined identifier
+compiling caculate_row.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(22): warning C206: 'LCDcommand': missing function-prototype
+MAIN.C(22): error C267: 'LCDcommand': requires ANSI-style prototype
+MAIN.C(23): error C202: 'start': undefined identifier
+compiling caculate_row.c...
+CACULATE_ROW.C(115): warning C209: '_delay_ms': too few actual parameters
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(12): error C202: 'start': undefined identifier
+compiling caculate_row.c...
+CACULATE_ROW.C(115): warning C209: '_delay_ms': too few actual parameters
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(14): warning C206: 'LCDcommand': missing function-prototype
+MAIN.C(14): error C267: 'LCDcommand': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(14): warning C206: 'LCDinit': missing function-prototype
+MAIN.C(16): warning C206: 'lcd': missing function-prototype
+MAIN.C(16): error C267: 'lcd': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(23): warning C206: 'lcd_cmd': missing function-prototype
+MAIN.C(23): error C267: 'lcd_cmd': requires ANSI-style prototype
+MAIN.C(24): error C202: 'hr1': undefined identifier
+MAIN.C(26): error C202: 'min1': undefined identifier
+MAIN.C(27): error C202: 'start': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+C:\110195_VUHUUBAC\LIB\PORT.H(42): error C231: 'dig_hr1': redefinition
+C:\110195_VUHUUBAC\LIB\PORT.H(43): error C231: 'dig_min1': redefinition
+compiling caculate_row.c...
+C:\110195_VUHUUBAC\LIB\PORT.H(42): error C231: 'dig_hr1': redefinition
+C:\110195_VUHUUBAC\LIB\PORT.H(43): error C231: 'dig_min1': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(7): warning C280: 'k': unreferenced local variable
+MAIN.C(9): warning C280: 'n': unreferenced local variable
+MAIN.C(35): error C202: 'hr1': undefined identifier
+MAIN.C(36): error C202: 'hr1': undefined identifier
+MAIN.C(37): error C202: 'hr1': undefined identifier
+compiling caculate_row.c...
+CACULATE_ROW.C(115): warning C209: '_delay_ms': too few actual parameters
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+MAIN.C(35): error C202: 'hr1': undefined identifier
+MAIN.C(36): error C202: 'hr1': undefined identifier
+MAIN.C(37): error C202: 'hr1': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0439H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04F4H
+Program Size: data=59.1 xdata=0 code=1427
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(22): error C141: syntax error near '\'
+MAIN.C(22): error C141: syntax error near '{'
+MAIN.C(29): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(29): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04EDH
+Program Size: data=59.1 xdata=0 code=1420
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04EDH
+Program Size: data=59.1 xdata=0 code=1423
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04EDH
+Program Size: data=59.1 xdata=0 code=1424
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04EDH
+Program Size: data=59.1 xdata=0 code=1425
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(9): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 04EDH
+Program Size: data=59.1 xdata=0 code=1426
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  RUN_CLOCK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  RUN_CLOCK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 050EH
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0523H
+Program Size: data=69.1 xdata=0 code=1480
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  RUN_CLOCK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  RUN_CLOCK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0510H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0525H
+Program Size: data=69.1 xdata=0 code=1482
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(16): error C267: 'run_clock': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0456H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0563H
+Program Size: data=75.1 xdata=0 code=1544
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0456H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0563H
+Program Size: data=69.1 xdata=0 code=1544
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling caculate_row.c...
+CACULATE_ROW.C(115): warning C209: '_delay_ms': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0454H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0561H
+Program Size: data=69.1 xdata=0 code=1542
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0454H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0561H
+Program Size: data=69.1 xdata=0 code=1542
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 044AH
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0557H
+Program Size: data=63.1 xdata=0 code=1532
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0448H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _DELAY_MS
+    MODULE:  caculate_row.obj (CACULATE_ROW)
+    ADDRESS: 0555H
+Program Size: data=63.1 xdata=0 code=1529
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling delay.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1617
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(114): warning C209: '_delay_ms': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1612
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling caculate_row.c...
+CACULATE_ROW.C(114): warning C209: '_delay_ms': too few actual parameters
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1612
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1612
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1610
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_CLEAR?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_STRING_XY?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD?CACULATE_ROW
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+Program Size: data=67.1 xdata=0 code=1610
+creating hex file from "Pj4"...
+"Pj4" - 0 Error(s), 4 Warning(s).

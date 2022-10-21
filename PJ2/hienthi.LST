@@ -1,0 +1,70 @@
+C51 COMPILER V9.01   HIENTHI                                                               10/16/2022 07:50:36 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE HIENTHI
+OBJECT MODULE PLACED IN hienthi.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE hienthi.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          /*author : Vu Huu Bac 
+   2            Purpose : learning C advance */
+   3          
+   4          
+   5          
+   6          
+   7           #include "C:\110195_VuHuuBac\lib\main.h"
+   8           #include "C:\110195_VuHuuBac\lib\port.h"
+   9          
+  10          
+  11          
+  12          
+  13          
+  14          void maquet (unsigned char n )
+  15          
+  16          {
+  17   1              LS138_A =n%2;
+  18   1              LS138_B =(n/2)%2;
+  19   1              LS138_C =(n/4)%2;
+  20   1      }
+  21          
+  22          void hienthi(long n ){
+  23   1              
+  24   1      
+  25   1       
+  26   1                                unsigned char maled[10]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x6f};
+  27   1                                char a[8] ,i,scs;
+  28   1                                i =0;
+  29   1                                while (n!=0){
+  30   2                                              a[i] = n%10;
+  31   2                                              n =n/10;
+  32   2                                              i++;
+  33   2                                
+  34   2                                
+  35   2                                }
+  36   1                      scs = i;
+  37   1                      for (i =0;i <scs ;i++){
+  38   2                      
+  39   2                              maquet(i);
+  40   2                              led7 =maled[a[i]];
+  41   2                              delay_ms(1);
+  42   2                              
+  43   2                      }
+  44   1              }
+  45                                    
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    158    ----
+   CONSTANT SIZE    =     10    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----      24
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+C51 COMPILER V9.01   HIENTHI                                                               10/16/2022 07:50:36 PAGE 2   
+
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

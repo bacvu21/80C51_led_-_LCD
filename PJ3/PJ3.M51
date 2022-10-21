@@ -1,0 +1,233 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        10/16/2022  11:10:40  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE main.obj, .\hienthi.obj, .\delay.obj TO PJ3
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  .\hienthi.obj (HIENTHI)
+  .\delay.obj (DELAY)
+  C:\KEIL\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?COPY)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?SLDIV)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?LLDIIDATA)
+  C:\KEIL\C51\LIB\C51S.LIB (?C?ULDIV)
+
+
+LINK MAP OF MODULE:  PJ3 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0018H     UNIT         _DATA_GROUP_
+            DATA    0020H     0004H     UNIT         ?DT?_DELAY_US?DELAY
+            DATA    0024H     0002H     UNIT         ?DT?MAIN
+            IDATA   0026H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     01E4H     UNIT         ?C?LIB_CODE
+            CODE    01E7H     00ABH     UNIT         ?PR?_HIENTHI?HIENTHI
+            CODE    0292H     0044H     UNIT         ?C?LDIV
+            CODE    02D6H     003CH     UNIT         ?PR?TANG?MAIN
+            CODE    0312H     003AH     UNIT         ?PR?GIAM?MAIN
+            CODE    034CH     0027H     UNIT         ?PR?MAIN?MAIN
+            CODE    0373H     0020H     UNIT         ?PR?_DELAY_MS?DELAY
+            CODE    0393H     0016H     UNIT         ?PR?_DELAY_US?DELAY
+            CODE    03A9H     0013H     UNIT         ?PR?_MAQUET?HIENTHI
+            CODE    03BCH     000CH     UNIT         ?C_C51STARTUP
+            CODE    03C8H     000AH     UNIT         ?CO?HIENTHI
+
+
+
+OVERLAY MAP OF MODULE:   PJ3 (MAIN)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN                  -----    -----
+  +--> ?PR?_HIENTHI?HIENTHI
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/16/2022  11:10:40  PAGE 2
+
+
+  +--> ?PR?TANG?MAIN
+  +--> ?PR?GIAM?MAIN
+
+?PR?_HIENTHI?HIENTHI           0008H    0018H
+  +--> ?CO?HIENTHI
+  +--> ?PR?_MAQUET?HIENTHI
+  +--> ?PR?_DELAY_MS?DELAY
+
+?PR?TANG?MAIN                  -----    -----
+  +--> ?PR?_HIENTHI?HIENTHI
+
+?PR?GIAM?MAIN                  -----    -----
+  +--> ?PR?_HIENTHI?HIENTHI
+
+
+
+SYMBOL TABLE OF MODULE:  PJ3 (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:0312H         PUBLIC        giam
+  C:034CH         PUBLIC        main
+  C:02D6H         PUBLIC        tang
+  B:00B0H.0       PUBLIC        a
+  B:00B0H.1       PUBLIC        b
+  D:0024H         PUBLIC        d
+  -------         PROC          MAIN
+  C:034CH         LINE#         23
+  C:034CH         LINE#         24
+  C:034CH         LINE#         25
+  C:0351H         LINE#         26
+  C:035EH         LINE#         28
+  C:035EH         LINE#         29
+  C:036BH         LINE#         30
+  C:036EH         LINE#         31
+  C:0371H         LINE#         32
+  -------         ENDPROC       MAIN
+  -------         PROC          TANG
+  C:02D6H         LINE#         39
+  C:02D6H         LINE#         40
+  C:02D9H         LINE#         41
+  C:02D9H         LINE#         42
+  C:02EBH         LINE#         43
+  C:02F3H         LINE#         45
+  C:0304H         LINE#         46
+  C:0311H         LINE#         48
+  C:0311H         LINE#         52
+  -------         ENDPROC       TANG
+  -------         PROC          GIAM
+  C:0312H         LINE#         53
+  C:0312H         LINE#         54
+  C:0315H         LINE#         55
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/16/2022  11:10:40  PAGE 3
+
+
+  C:0315H         LINE#         56
+  C:0327H         LINE#         57
+  C:032FH         LINE#         59
+  C:033EH         LINE#         60
+  C:034BH         LINE#         62
+  C:034BH         LINE#         64
+  -------         ENDPROC       GIAM
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        HIENTHI
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  D:00B0H         PUBLIC        P3
+  C:03A9H         PUBLIC        _maquet
+  C:03C8H         SYMBOL        _?ix1000
+  B:00A0H.0       PUBLIC        LS138_A
+  B:00A0H.1       PUBLIC        LS138_B
+  B:00A0H.2       PUBLIC        LS138_C
+  C:01E7H         PUBLIC        _hienthi
+  D:0080H         PUBLIC        led7
+  -------         PROC          _MAQUET
+  D:0007H         SYMBOL        n
+  C:03A9H         LINE#         14
+  C:03A9H         LINE#         16
+  C:03A9H         LINE#         17
+  C:03ADH         LINE#         18
+  C:03B3H         LINE#         19
+  C:03BBH         LINE#         20
+  -------         ENDPROC       _MAQUET
+  -------         PROC          _HIENTHI
+  D:0008H         SYMBOL        n
+  -------         DO            
+  D:000CH         SYMBOL        maled
+  D:0016H         SYMBOL        a
+  D:001EH         SYMBOL        i
+  D:001FH         SYMBOL        scs
+  -------         ENDDO         
+  C:01E7H         LINE#         22
+  C:01EFH         LINE#         26
+  C:0202H         LINE#         28
+  C:0205H         LINE#         30
+  C:0213H         LINE#         31
+  C:0217H         LINE#         32
+  C:021FH         LINE#         33
+  C:0225H         LINE#         35
+  C:0225H         LINE#         36
+  C:0233H         LINE#         37
+  C:0245H         LINE#         38
+  C:025EH         LINE#         39
+  C:0260H         LINE#         42
+  C:0262H         LINE#         43
+  C:0265H         LINE#         44
+  C:0275H         LINE#         46
+  C:027AH         LINE#         47
+  C:0286H         LINE#         48
+  C:028DH         LINE#         50
+  C:0291H         LINE#         51
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/16/2022  11:10:40  PAGE 4
+
+
+  -------         ENDPROC       _HIENTHI
+  -------         ENDMOD        HIENTHI
+
+  -------         MODULE        DELAY
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  C:0373H         PUBLIC        _delay_ms
+  C:0393H         PUBLIC        _delay_us
+  -------         PROC          _DELAY_MS
+  D:0006H         SYMBOL        t
+  -------         DO            
+  D:0004H         SYMBOL        x
+  D:0002H         SYMBOL        y
+  -------         ENDDO         
+  C:0373H         LINE#         4
+  C:0373H         LINE#         6
+  C:037DH         LINE#         7
+  C:0392H         LINE#         8
+  -------         ENDPROC       _DELAY_MS
+  -------         PROC          _DELAY_US
+  D:0020H         SYMBOL        t
+  C:0393H         LINE#         9
+  C:039BH         LINE#         11
+  C:03A8H         LINE#         13
+  -------         ENDPROC       _DELAY_US
+  -------         ENDMOD        DELAY
+
+  -------         MODULE        ?C?COPY
+  C:00D3H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+  -------         MODULE        ?C?SLDIV
+  C:0292H         PUBLIC        ?C?SLDIV
+  -------         ENDMOD        ?C?SLDIV
+
+  -------         MODULE        ?C?LLDIIDATA
+  C:0102H         PUBLIC        ?C?LLDIIDATA
+  C:00F9H         PUBLIC        ?C?LLDIIDATA1
+  C:00FBH         PUBLIC        ?C?LLDIIDATA8
+  -------         ENDMOD        ?C?LLDIIDATA
+
+  -------         MODULE        ?C?ULDIV
+  C:0155H         PUBLIC        ?C?ULDIV
+  -------         ENDMOD        ?C?ULDIV
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_US?DELAY
+
+Program Size: data=39.0 xdata=0 code=978
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

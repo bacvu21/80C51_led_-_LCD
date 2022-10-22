@@ -1,0 +1,211 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        10/22/2022  22:20:15  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\\C51\BIN\BL51.EXE main.obj TO click_button
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  main.obj (MAIN)
+  D:\\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\\C51\LIB\C51S.LIB (?C?IMUL)
+  D:\\C51\LIB\C51S.LIB (?C?UIDIV)
+  D:\\C51\LIB\C51S.LIB (?C?SLDIV)
+  D:\\C51\LIB\C51S.LIB (?C?ULDIV)
+
+
+LINK MAP OF MODULE:  click_button (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     000BH     UNIT         ?DT?MAIN
+            IDATA   0013H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     0008H                  *** GAP ***
+            CODE    000BH     0003H     ABSOLUTE     
+                    000EH     07F2H                  *** GAP ***
+            CODE    0800H     0135H     UNIT         ?C?LIB_CODE
+            CODE    0935H     00B0H     UNIT         ?PR?TIMERCAL?MAIN
+            CODE    09E5H     0044H     UNIT         ?C?LDIV
+            CODE    0A29H     001DH     UNIT         ?PR?TANG?MAIN
+            CODE    0A46H     001DH     UNIT         ?PR?GIAM?MAIN
+            CODE    0A63H     001CH     UNIT         ?PR?MAIN?MAIN
+            CODE    0A7FH     0013H     UNIT         ?PR?TIMER?MAIN
+            CODE    0A92H     0010H     UNIT         ?PR?TIMERINIT?MAIN
+            CODE    0AA2H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   click_button (MAIN)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN
+  +--> ?PR?TIMERINIT?MAIN
+  +--> ?PR?TIMERCAL?MAIN
+  +--> ?PR?TANG?MAIN
+  +--> ?PR?GIAM?MAIN
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/22/2022  22:20:15  PAGE 2
+
+
+
+?PR?TANG?MAIN
+  +--> ?PR?TIMERCAL?MAIN
+
+?PR?GIAM?MAIN
+  +--> ?PR?TIMERCAL?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  click_button (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0090H         PUBLIC        P1
+  D:00A0H         PUBLIC        P2
+  B:00A8H.7       PUBLIC        EA
+  D:0008H         PUBLIC        Toff
+  C:0A46H         PUBLIC        giam
+  C:0A7FH         PUBLIC        timer
+  C:0A63H         PUBLIC        main
+  C:0A29H         PUBLIC        tang
+  D:000AH         PUBLIC        Ton
+  D:0089H         PUBLIC        TMOD
+  B:0090H.2       PUBLIC        Dx
+  D:000CH         PUBLIC        D
+  B:0090H.0       PUBLIC        xung
+  B:00A8H.1       PUBLIC        ET0
+  D:008CH         PUBLIC        TH0
+  B:0090H.1       PUBLIC        Ux
+  D:008AH         PUBLIC        TL0
+  D:000DH         PUBLIC        T
+  D:000FH         PUBLIC        THoffreload
+  C:0935H         PUBLIC        timercal
+  B:0088H.4       PUBLIC        TR0
+  D:0010H         PUBLIC        TLoffreload
+  C:0A92H         PUBLIC        timerinit
+  D:0011H         PUBLIC        THonreload
+  D:0012H         PUBLIC        TLonreload
+  -------         PROC          TIMERCAL
+  C:0935H         LINE#         7
+  C:0935H         LINE#         8
+  C:0935H         LINE#         9
+  C:094BH         LINE#         10
+  C:0958H         LINE#         11
+  C:0977H         LINE#         12
+  C:099CH         LINE#         13
+  C:09BFH         LINE#         14
+  C:09E4H         LINE#         16
+  -------         ENDPROC       TIMERCAL
+  -------         PROC          TIMERINIT
+  C:0A92H         LINE#         17
+  C:0A92H         LINE#         18
+  C:0A92H         LINE#         19
+  C:0A95H         LINE#         20
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/22/2022  22:20:15  PAGE 3
+
+
+  C:0A98H         LINE#         21
+  C:0A9BH         LINE#         22
+  C:0A9DH         LINE#         23
+  C:0A9FH         LINE#         24
+  C:0AA1H         LINE#         25
+  -------         ENDPROC       TIMERINIT
+  -------         PROC          TIMER
+  C:0A7FH         LINE#         26
+  C:0A7FH         LINE#         28
+  C:0A81H         LINE#         29
+  C:0A84H         LINE#         30
+  C:0A84H         LINE#         31
+  C:0A87H         LINE#         32
+  C:0A8AH         LINE#         33
+  C:0A8BH         LINE#         35
+  C:0A8BH         LINE#         36
+  C:0A8EH         LINE#         37
+  C:0A91H         LINE#         38
+  C:0A91H         LINE#         40
+  -------         ENDPROC       TIMER
+  -------         PROC          TANG
+  C:0A29H         LINE#         41
+  C:0A29H         LINE#         42
+  C:0A29H         LINE#         43
+  C:0A2CH         LINE#         44
+  C:0A2CH         LINE#         45
+  C:0A2FH         LINE#         46
+  C:0A35H         LINE#         47
+  C:0A38H         LINE#         48
+  C:0A42H         LINE#         49
+  C:0A45H         LINE#         50
+  C:0A45H         LINE#         51
+  -------         ENDPROC       TANG
+  -------         PROC          GIAM
+  C:0A46H         LINE#         52
+  C:0A46H         LINE#         53
+  C:0A46H         LINE#         54
+  C:0A49H         LINE#         55
+  C:0A49H         LINE#         56
+  C:0A4CH         LINE#         57
+  C:0A52H         LINE#         58
+  C:0A55H         LINE#         59
+  C:0A5FH         LINE#         60
+  C:0A62H         LINE#         61
+  C:0A62H         LINE#         62
+  -------         ENDPROC       GIAM
+  -------         PROC          MAIN
+  C:0A63H         LINE#         63
+  C:0A63H         LINE#         64
+  C:0A63H         LINE#         66
+  C:0A6CH         LINE#         67
+  C:0A6FH         LINE#         68
+  C:0A72H         LINE#         70
+  C:0A74H         LINE#         71
+  C:0A74H         LINE#         72
+  C:0A74H         LINE#         74
+  C:0A77H         LINE#         75
+BL51 BANKED LINKER/LOCATER V6.22                                                      10/22/2022  22:20:15  PAGE 4
+
+
+  C:0A7AH         LINE#         76
+  C:0A7DH         LINE#         79
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+  -------         MODULE        ?C?IMUL
+  C:0800H         PUBLIC        ?C?IMUL
+  -------         ENDMOD        ?C?IMUL
+
+  -------         MODULE        ?C?UIDIV
+  C:0812H         PUBLIC        ?C?UIDIV
+  -------         ENDMOD        ?C?UIDIV
+
+  -------         MODULE        ?C?SLDIV
+  C:09E5H         PUBLIC        ?C?SLDIV
+  -------         ENDMOD        ?C?SLDIV
+
+  -------         MODULE        ?C?ULDIV
+  C:08A3H         PUBLIC        ?C?ULDIV
+  -------         ENDMOD        ?C?ULDIV
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 012CH BYTE (14%) *
+******************************************************************************
+
+Program Size: data=20.0 xdata=0 code=692
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,105 @@
+C51 COMPILER V9.01   MAIN                                                                  10/22/2022 22:20:14 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1                  #include "D:\projectlinhtinh\8051memory\110195_VuHuuBac\lib\main.h"
+   2          
+   3          
+   4          unsigned char THonreload,TLonreload,THoffreload,TLoffreload;
+   5          unsigned char D;
+   6          unsigned int T, Ton, Toff;
+   7                  void timercal()
+   8                          {
+   9   1                      Ton  = D*(T/100);
+  10   1                      Toff = T- Ton;
+  11   1                      THonreload = (65536- Ton)/256;
+  12   1                      TLonreload = (65536- Ton)%256;
+  13   1                      THoffreload = (65536- Toff)/256;
+  14   1                      TLoffreload = (65536- Toff)%256;
+  15   1                      
+  16   1                      }
+  17                          void timerinit()
+  18                          {
+  19   1                      TMOD = 0x01; // CHON TIMER 0 CHE DO 1
+  20   1                      TH0  = 0xfe;// nap gia tri khoi dau dem
+  21   1                      TL0  = 0X0B;
+  22   1                      EA   = 1;//cho phep nhat
+  23   1                      ET0  = 1;//cho phep nhat timer 0
+  24   1                      TR0  = 1;//cho phep dem
+  25   1                      }
+  26                  void timer () interrupt 1
+  27                          {
+  28   1                      xung = ~xung;
+  29   1                      if (xung)
+  30   1                      {
+  31   2                      TH0  = THonreload;
+  32   2                      TL0  = TLonreload;
+  33   2                      }
+  34   1                      else
+  35   1                      {
+  36   2                      TH0 = THoffreload;
+  37   2                      TL0 = TLoffreload;
+  38   2                      }
+  39   1                      
+  40   1                      }
+  41                  void tang()
+  42                          {
+  43   1                      if ( Ux== 0)
+  44   1                      {
+  45   2                      while (Ux==0);
+  46   2                      D=D+10;
+  47   2                      timercal();
+  48   2                      if(D>100) D=100;
+  49   2                      timercal();
+  50   2                      }
+  51   1                      }
+  52                  void giam ()
+  53                          {
+  54   1                      if (Dx==0)
+  55   1                      {
+C51 COMPILER V9.01   MAIN                                                                  10/22/2022 22:20:14 PAGE 2   
+
+  56   2                      while (Dx==0 );
+  57   2                      D=D-10;
+  58   2                      timercal();
+  59   2                      if(D<0) D=0;
+  60   2                      timercal();
+  61   2                      }
+  62   1                      }
+  63                          void main()
+  64                          {
+  65   1                      
+  66   1                      D = 50; T=1000;
+  67   1                      timerinit();
+  68   1                      timercal();
+  69   1                      
+  70   1                      xung = 1;
+  71   1                      while(1)
+  72   1                      {
+  73   2                      
+  74   2                      tang();
+  75   2                      giam();
+  76   2                      timercal();
+  77   2                      
+  78   2                      
+  79   2                      }
+  80   1                      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    297    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     11    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
